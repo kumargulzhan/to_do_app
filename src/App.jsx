@@ -1,11 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import style from "./App.module.css";
+import { ToDoList } from "./components/toDoList/toDoList";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">hellooo</div>;
+  return (
+    <div>
+      <ToDoList />
+    </div>
+  );
 }
 
 export default App;

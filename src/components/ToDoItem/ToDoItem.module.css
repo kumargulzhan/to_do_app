@@ -1,0 +1,23 @@
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  border: 1px solid teal;
+}
+
+.todo_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.todo_content strong {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.todo_delete {
+  font-weight: bold;
+}
